@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Lessons FrontEnd Basic</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="/">
+                <img src="./images/icons/logo.svg" alt="Logo" title="Hillel It Scool">
+            </a>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h1>Selectors</h1>
+            </div>
+        </section>
+        <section id="descr1">
+            <div class="box">
+                <h3>What is selectors in CSS?</h3>
+                <p class="paragraph">A CSS selectors selects the HTML element(s) you want to style.</p>
+            </div>
+        </section>
+        <section id="list1">
+            <div class="box">
+                <ul class="list">
+                    <li class="list__item">
+                        <h4>Selector by name</h4>
+                        <p>Select elements based on name.<em>That's why this text is almost invisible.</em></p>
+                    </li>
+                    <li class="list__item">
+                        <h4>Selector by ID</h4>
+                        <p id="text_on_the_right">Select elements based on id. That's why this text is white and on the
+                            right of the screen.</p>
+                    </li>
+                    <li class="list__item">
+                        <h4>Selector by class</h4>
+                        <p class="spectial_class">Select elements based on class. This special class elements should be
+                            yellow.</p>
+                    </li>
+                    <li class="list__item">
+                        <h4>Selector by multiple classes</h4>
+                        <p class="spectial_class text_on_the_center">Select elements based on multiple classes. That's
+                            why this text on the center.</p>
+                    </li>
+                    <li class="list__item">
+                        <h4>Selector by nested elements.</h4>
+                        <p>This selector selects all elements inside other elements.<b>That's wht all bold paragraphs
+                                will be biege.</b>
+                        </p>
+                    </li>
+                    <li class="list__item">
+                        <h4>Attribute selector.</h4>
+                        <p>In this case selector selects all a elements with a href attribute value starting with "http"
+                            and make it velvet.</p>
+                        <a href="https://itwiki.dev/front-end/css-reference#section-selectors" target="_blank">Ukranian
+                            selectors docs</a>
+                    </li>
+                    <li class="list__item">
+                        <h4>Another attribute selector.</h4>
+                        <p>This selector selects all elements with a title attribute that contains a space-separated
+                            list of words, one of which is "select" (in our case).
+                        </p>
+                        <a href="https://www.w3schools.com/css/css_selectors.asp" title="eng_selectors_doc">English
+                            selectors docs</a>
+                    </li>
+                    <li class="list__item">
+                        <h4>Adjacent Sibling Selector.</h4>
+                        <div>
+                            <p>div > p. Selects p elements where the parent is a div element</p>
+                        </div>
+                    </li>
+                    <li class="list__item">
+                        <h4>Another Adjacent Sibling Selector.</h4>
+                        <button>Push me</button>
+                        <p>button + p. Selects p elements where the parent is a button element. That's why it's boarder
+                            here.</p>
+                    </li>
+                    <li class="list__item">
+                        <h4>Pseudo-class selectors.</h4>
+                        <p>Select elements based on a certain state. In this case - mouse over link will make it bright
+                            pink.
+                        </p>
+                        <a href="https://itwiki.dev/front-end/css-reference#section-pseudo-classes">Link</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div>
+
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

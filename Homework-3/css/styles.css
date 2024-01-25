@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  background-color: cadetblue;
+}
+
+.container {
+  max-width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 10px;
+  color: azure;
+}
+
+.list__item {
+  margin: 10px;
+  padding: 0;
+}
+
+.box {
+  padding-top: 10px;
+  border: dotted yellow;
+}
+
+.paragraph {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  color: black;
+}
+
+#descr1 {
+  padding: 0;
+  margin: 10px;
+}
+
+#list1 {
+  padding: 0;
+  margin: 10px;
+}
+
+div > h3 {
+  color: azure;
+}
+
+em {
+  text-align: center;
+  color: aquamarine;
+}
+
+li ~ p {
+  margin: 10px;
+}
+
+#text_on_the_right {
+  padding-left: 400px;
+  color: white;
+}
+
+.spectial_class {
+  color: yellow;
+}
+
+.text_on_the_center {
+  padding-left: 100px;
+}
+
+.spectial_class.text_on_the_center {
+  color: greenyellow;
+}
+
+p b {
+  color: beige;
+}
+
+a[href^="https://it"]
+{
+  color: blueviolet;
+  margin: 10px;
+}
+
+h4 {
+  padding-bottom: 10px;
+}
+
+a[title*="select"] {
+  color: red;
+}
+
+div > p {
+  color: green;
+}
+
+button + p {
+  margin-top: 10px;
+  border: solid 2px white;
+}
+
+a:hover {
+  color: #ff00ff;
+}
