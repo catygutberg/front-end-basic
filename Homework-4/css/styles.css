@@ -28,9 +28,9 @@ img {
 
 .card {
   display: inline-block;
-  width: 33.333%;
-  min-width: 310px;
-  max-width: 380px;
+  width: calc(33.333% - 20px);
+  /* min-width: 310px;
+  max-width: 380px;*/
   background-color: #e0e0e0;
   font-size: 16px;
   margin: 10px;
