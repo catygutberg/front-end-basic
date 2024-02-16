@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #eeeff1;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section {
+  background-color: #eeeff1;
+}
+
+.section_blue {
+  background-color: #34547a;
+  color: #eeeff1;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #34547a;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  display: block;
+  color: #eeeff1;
+}
