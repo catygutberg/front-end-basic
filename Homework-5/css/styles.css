@@ -46,6 +46,7 @@ div {
 .float-item {
   width: 200px;
   height: 200px;
+  line-height: 200px;
 }
 
 .float-item-1 {
@@ -80,6 +81,7 @@ div {
   background-color: #fc8f8f;
   height: 100px;
   width: 100px;
+  line-height: 100px;
 }
 
 /* Вирішення проблеми з порядком елементів */
