@@ -10,32 +10,109 @@
   padding-bottom: 40px;
 }
 
-ul {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  align-items: center;
-  list-style: none;
+.container {
+  max-width: 1120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
   text-decoration: none;
 }
 
+ul {
+  display: inline;
+}
+
+h1 {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 80;
+  line-height: 79px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 200px;
+  margin-bottom: 80px;
+}
+
+h2 {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.text-box1 {
+  margin-bottom: 80px;
+  max-width: 540px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.text-box2 {
+  height: 147px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  padding-top: 50px;
+}
+
+h2 + p {
+  max-width: 540px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
 .section {
   background-color: #eeeff1;
+  padding-bottom: 50px;
+}
+
+.section_white {
+  background-color: #f9f9f9;
+  padding-bottom: 80px;
+}
+
+.navbar ul {
+  float: left;
+  text-transform: uppercase;
+}
+
+.navbar ul li {
+  display: inline;
 }
 
 .section_blue {
   background-color: #34547a;
   color: #eeeff1;
+  padding: 30px;
 }
 
 button {
   padding: 10px 20px;
   background-color: #34547a;
   text-transform: uppercase;
-  font-family: sans-serif;
   display: block;
   color: #eeeff1;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.projects_list li {
+  display: inline;
 }
