@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Auto shop</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Best cars shop</h1>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <h3>Find your car</h3>
+                <form action="http://fom.in.ua/echo" name="register" method="post" autocomplete="on">
+                    <div class="input-row">
+                        <p>Car body type</p>
+                        <label class="checkbox">
+                            <input type="checkbox" checked name="type1" value="hatchback">
+                            <span>Hatchback</span>
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="type2" value="sedan">
+                            <span>Sedan</span>
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="type5" value="Coupe">
+                            <span>Coupe</span>
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="type6" value="Convertible">
+                            <span>Convertible</span>
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="type7" value="Pickup">
+                            <span>Pickup</span>
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="type8" value="Truck">
+                            <span>Truck</span>
+                        </label>
+                    </div>
+                    <div class="input-row">
+                        <p>Brand (hold ctrl for selecting multiple values) </p>
+                        <select multiple size="6">
+                            <option value="Toyota">Toyota</option>
+                            <option value="Volkswagen">Volkswagen</option>
+                            <option value="Ford">Ford</option>
+                            <option value="Mercedes-Benz">Mercedes-Benz</option>
+                            <option value="Volvo">Volvo</option>
+                            <option value="BMW">BMW</option>
+                            <option value="Audi">Audi</option>
+                        </select>
+                    </div>
+                    <div class="input-row">
+                        <p>Producing country</p>
+                        <label class="checkbox">
+                            <input type="checkbox" checked name="country1" value="usa">
+                            <span>USA</span>
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="country2" value="germany">
+                            <span>Germany</span>
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="country3" value="china">
+                            <span>China</span>
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="country6" value="japan">
+                            <span>Japan</span>
+                        </label>
+                    </div>
+                    <div class="input-row">
+                        <p>Price from:</p>
+                        <input type="number" id="price_from" name="price_from" min="10000" max="100000" />
+                    </div>
+                    <div class="input-row">
+                        <p>Price to:</p>
+                        <input type="number" id="price_to" name="price_to" min="10000" max="100000" />
+                    </div>
+                    <div class="input-row">
+                        <p>Year from:</p>
+                        <input type="number" id="year_from" name="year_from" min="1980" max="2024" />
+                    </div>
+                    <div class="input-row">
+                        <p>Year to:</p>
+                        <input type="number" id="year_to" name="year_to" min="1980" max="2024" />
+                    </div>
+                    <div class="input-row">
+                        <p>State (hold ctrl for selecting multiple values) </p>
+                        <select multiple size="4">
+                            <option value="new">New</option>
+                            <option value="broken">Broken</option>
+                            <option value="uncleared">Uncleared</option>
+                            <option value="In credit">In credit</option>
+                        </select>
+                    </div>
+                    <div class="input-row">
+                        <label for="fuel_type">Choose a fuel type:</label>
+                        <select id="fuel_type" name="fuel_type">
+                            <option value="petrol">Petrol</option>
+                            <option value="electricity">Electricity</option>
+                            <option value="hybrid">Hybrid</option>
+                        </select>
+                    </div>
+                    <div class="input-row">
+                        <label for="gearbox">Choose a gearbox type:</label>
+                        <select id="gearbox" name="gearbox">
+                            <option value="petrol">Automatic Transmission (AT)</option>
+                            <option value="electricity">Manual Transmission (MT)</option>
+                            <option value="hybrid">Automated Manual Transmission (AM)</option>
+                        </select>
+                    </div>
+                    <div class="input-row">
+                        <label for="favcolor">Select a color:</label>
+                        <input type="color" id="color" name="color" value="#ff0000">
+                    </div>
+                    <div class="input-row">
+                        <p>Extras (hold ctrl for selecting multiple values) </p>
+                        <select multiple size="7">
+                            <option value="headliner">Open/closed headliner</option>
+                            <option value="broken">Leather salon</option>
+                            <option value="uncleared">Phone mount</option>
+                            <option value="In credit">Cruise control</option>
+                            <option value="broken">Parking sensors</option>
+                            <option value="uncleared">Seats heating</option>
+                            <option value="In credit">Car seat organizer</option>
+                        </select>
+                    </div>
+                    <div class="buttons">
+                        <input type="submit" value="Find">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Auto shop</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Best cars shop</h1>
+
+            <nav class="nav">
+                <ul class="navigation">
+                    <li><a href="./authorisation.html">Autorisation</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <h3>Sign up</h3>
+                <form action="https://fom.in.ua/echo" name="register" method="post" autocomplete="on">
+                    <div class="input-row">
+                        <label>
+                            <span>Email</span>
+                            <input type="email" required name="email" placeholder="input email">
+                        </label>
+                    </div>
+                    <div class="input-row">
+                        <label>
+                            <span>Password</span>
+                            <input type="password" required name="password" placeholder="enter 6-32 symbols"
+                                minlength="6" maxlength="32">
+                        </label>
+                    </div>
+                    <div class="input-row">
+                        <label>
+                            <span>Confirm password</span>
+                            <input type="password" required name="confirm_password" placeholder="confirm password"
+                                minlength="6" maxlength="32">
+                        </label>
+                    </div>
+                    <div class="buttons">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
