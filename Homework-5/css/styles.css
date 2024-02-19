@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  line-height: normal;
+  text-align: center;
+}
+
+body {
+  padding-bottom: 60px;
+}
+
+div {
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 980px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.float-box {
+  text-align: center;
+  background-color: #c4c4c4;
+  padding: 20px;
+}
+
+.float-row {
+  background-color: #e6e6e6;
+  margin-bottom: 20px;
+  width: 900px;
+}
+
+.float-item {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+}
+
+.float-item-1 {
+  float: left;
+  background-color: #fc8f8f;
+}
+
+.float-item-1:not(:first-child) {
+  margin-left: 10px;
+}
+
+.float-item-2 {
+  background-color: #fc8f8f;
+  float: right;
+}
+
+.float-item-2:not(:last-child) {
+  margin-left: 10px;
+}
+
+/* Вирішення проблеми з порядком елементів */
+.float-item-wrapper {
+  float: right;
+}
+
+.float-item-3:not(:last-child) {
+  margin-right: 10px;
+}
+
+.float-item-3 {
+  float: left;
+  background-color: #fc8f8f;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+}
+
+/* Вирішення проблеми з порядком елементів */
+
+.float-row-2 {
+  background-color: #e6e6e6;
+  margin-bottom: 20px;
+  width: 900px;
+}
+
+.float-row-3 {
+  background-color: #e6e6e6;
+  width: 900px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
