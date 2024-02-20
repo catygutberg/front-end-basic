@@ -14,12 +14,32 @@
 
 table {
   border: 1px solid gray;
-  width: 300px;
+  width: 600px;
   height: 300px;
 }
 
 td {
-  border: 1 px solid salmon;
-  background-color: blanchedalmond;
+  border: 1px solid rgb(17, 5, 4);
   padding: 5px 10px;
+  text-align: center;
+}
+
+tfoot td {
+  text-align: center;
+}
+
+thead td {
+  text-align: center;
+}
+
+.violet_cell {
+  background-color: rgb(108, 117, 247);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.yellow_cell {
+  background-color: yellow;
 }
