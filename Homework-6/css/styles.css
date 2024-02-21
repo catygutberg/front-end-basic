@@ -132,6 +132,10 @@ button {
   margin-bottom: 141px;
 }
 
+.button_hover:hover {
+  background-color: #3f699c;
+}
+
 .blue_block {
   text-align: center;
 }
