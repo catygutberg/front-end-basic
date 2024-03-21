@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'GraphikLCG-Semibold';
+  src: url(./GraphikLCG-Semibold.woff) format('woff'),
+       url(./GraphikLCG-Semibold.woff2) format('woff2');
+}
